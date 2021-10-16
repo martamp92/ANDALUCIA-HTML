@@ -1,0 +1,33 @@
+h3 {
+    background-color: blueviolet;
+}
+h1 {
+    background-color: crimson;
+}
+h2 {
+    background-color: green;
+}
+img {
+    width: 80px;
+    height: 80px;
+}
+.imagenpeque {
+    width: 200px;
+    height: 200px;
+}
+.imagenmaspeque {
+    width: 150px;
+    height: 150px
+}
+.estilo1 {
+    background-color:rgb(222, 231, 86);
+    color: indigo;
+}
+.estilo2 {
+    color: magenta;
+    background-color:violet;
+}
+.estilo3 {
+    background-color: mediumpurple;
+    color:plum;
+}
