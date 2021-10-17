@@ -1,0 +1,21 @@
+h1 {
+    color:crimson;
+    background-color:yellow;
+}
+
+h2 {
+    color: black;
+}
+
+.estilo1 {
+    color: red;
+}
+
+.imagenes {
+    width: 80mm;
+    height: 50mm;
+}
+.estilo2 {
+    background-color: black;
+    color: white;
+}
