@@ -7,6 +7,35 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <h2>Pasarela de pago: </h2>
+    <form>
+        <label>Introduzca su nombre y apellidos: </label>
+        <input type="text" name="nombreyapellidos" required/>
+        <button type="submit">
+            Enviar datos
+        </button>
+        <br/>
+        <label>Introduzca su dirección:</label>
+        <input type="text" name="direccion" required/>
+        <button type="submit">
+            Enviar datos
+        </button>
+        <br/>
+        <label>Introduzca su número de teléfono: </label>
+        <input type="text" name="telefono" required/>
+        <button type="submit">
+            Enviar datos
+        </button>
+        <br/>
+        <label>Seleccione el tipo de pago: </label>
+        <select name="tipodepago">
+            <option value="Tarjeta">Tarjeta de crédito</option>
+            <option value="Paypal">Paypal</option>
+            <option value="Efectivo">Efectivo</option>
+        </select>
+        <button type="submit">
+            Enviar datos
+        </button>
+    </form>
 </body>
 </html>
