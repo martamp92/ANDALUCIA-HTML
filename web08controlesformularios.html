@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>Otros controles de formulario: </h1>
-    <form>
+    <form method="post">
         <labe>Seleccione su color favorito: </labe>
     <select name="colores">
         <option value="blue">Azul</option>
@@ -20,7 +20,7 @@
     </button>
 </form>
 <br/>
-<form>
+<form method="post">
     <label>Seleccione sus deportes favoritos: </label>
     <select name="deportes" size="3" multiple>
         <option value="petanca">Petanca</option>
@@ -31,6 +31,7 @@
         Enviar datos
     </button>
     <br/>
+    <form method="post">
     <label>Introduzca su nombre: </label>
     <input type="text" name="cajanombre" list="datanombres"/>
     <datalist id="datanombres">
@@ -41,6 +42,24 @@
             <option value="Miriam"/>
             <option value="Marina"/>
     </datalist>
+    <button type="submit">
+        Enviar datos
+    </button>
+</form>
+<br/>
+<form>
+    <label>Pulse su lenguaje favorito: </label>
+    <ul>
+        <li>
+            <a href="web08controlesformularios.html?Lenguaje=HTML">HTML</a>
+        </li>
+        <li>
+            <a href="web08controlesformularios.html?Lenguaje=C#">C#</a>
+        </li>
+        <li>
+            <a href="web08controlesformularios.html?Lenguaje=Python">Python</a>
+        </li>
+    </ul>
 </form>
 </body>
 </html>
